@@ -32,7 +32,7 @@ export const MenuToggle = styled.button`
   padding: 0;
   z-index: 10;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     display: none;
   }
 
@@ -73,7 +73,7 @@ export const NavLinks = styled.nav`
   gap: 1rem;
   padding: 0 1rem;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     height: auto;
     overflow: visible;
     position: static;
@@ -88,14 +88,17 @@ export const NavLinks = styled.nav`
 `;
 
 export const NavItemsWrapper = styled.div`
-  position: relative;
-  padding-block: 1rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   z-index: 3;
+  gap: 2rem;
+
+  @media all and (max-width: 768px) {
+    position: relative;
+    padding-block: 2.5rem;
+    flex-direction: column;
+  }
 `;
 
 export const NavItem = styled(NavLink)`
