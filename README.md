@@ -8,7 +8,7 @@ It is meant to be used as a **starting point for new projects**, not as a projec
 
 ## How to use this template
 
-### Option 1 (recommended): Use GitHub Template
+### Use GitHub Template
 
 1. Open this repository on GitHub
 2. Click **Use this template**
